@@ -24,7 +24,7 @@ let pois = [...samplePOIs];
 console.log(`✅ Loaded ${pois.length} POIs from sample data`);
 
 // Routes
-app.use('/api/v1/pois', require('./src/api/routes/poiRoutes'));
+app.use('/pois', require('./src/api/routes/poiRoutes'));
 
 // Health check endpoint
 app.get('/api/v1/health', (req, res) => {
