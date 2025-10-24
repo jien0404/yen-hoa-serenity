@@ -44,6 +44,14 @@ app.use((err, req, res, next) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Welcome to Yen Hoa Serenity API',
+    health: '/api/v1/health',
+    docs: '/api/v1/pois'
+  });
+});
+
 // 404 handler
 app.use('*', (req, res) => {
   res.status(404).json({ error: 'Route not found' });
