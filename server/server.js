@@ -8,13 +8,16 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 8000;
 
+const allowedOrigins = [
+  'https://yen-hoa-serenity-frontend.vercel.app',
+  'https://yen-hoa-serenity.vercel.app',
+  'http://localhost:5173'
+];
+
 // Middleware
 app.use(helmet());
 app.use(morgan('combined'));
-app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -24,7 +27,7 @@ let pois = [...samplePOIs];
 console.log(`✅ Loaded ${pois.length} POIs from sample data`);
 
 // Routes
-app.use('/pois', require('./src/api/routes/poiRoutes'));
+app.use('/api/v1/pois', require('./src/api/routes/poiRoutes'));
 
 // Health check endpoint
 app.get('/api/v1/health', (req, res) => {
