@@ -27,10 +27,10 @@ let pois = [...samplePOIs];
 console.log(`✅ Loaded ${pois.length} POIs from sample data`);
 
 // Routes
-app.use('/api/v1/pois', require('./src/api/routes/poiRoutes'));
+app.use('/pois', require('./src/api/routes/poiRoutes'));
 
 // Health check endpoint
-app.get('/api/v1/health', (req, res) => {
+app.get('/health', (req, res) => {
   res.json({ 
     status: 'OK', 
     message: 'Yen Hoa Serenity API is running',
@@ -50,8 +50,8 @@ app.use((err, req, res, next) => {
 app.get('/', (req, res) => {
   res.json({
     message: 'Welcome to Yen Hoa Serenity API',
-    health: '/api/v1/health',
-    docs: '/api/v1/pois'
+    health: '/health',
+    docs: '/pois'
   });
 });
 
@@ -62,5 +62,5 @@ app.use('*', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
-  console.log(`📊 Health check: http://localhost:${PORT}/api/v1/health`);
+  console.log(`📊 Health check: http://localhost:${PORT}/health`);
 });
