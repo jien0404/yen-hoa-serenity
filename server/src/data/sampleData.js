@@ -3,14 +3,14 @@ const samplePOIs = [
     id: "yen-hoa-village-center",
     type: "attraction",
     name_vi: "Trung tâm Bản Yên Hoà",
-    description_vi: "Trung tâm của Bản Yên Hoà với những ngôi nhà sàn truyền thống được bảo tồn nguyên vẹn. Đây là nơi du khách có thể tìm hiểu về văn hóa và lối sống của người dân địa phương.",
+    description_vi: "Tháp Yên Hòa hay còn có tên gọi khác gọi là Xằng Tớ nằm ở bản Yên Hòa, xã Mỹ Lý (Kỳ Sơn) bên dòng sông Nậm Nơn uốn cong, cách biên giới Việt - Lào chỉ vài km. Tháp nằm sát bên khu dân cư, cách bờ sông khoảng 100 m, xung quanh có cây xanh, cỏ hoa. Theo truyền miệng của nhiều thế hệ dân bản, tháp tồn tại từ hàng trăm năm trước, có nhiều tượng cổ bằng đồng xếp xung quanh, phía trên đỉnh có viên xá lợi. Song qua biến cố thời gian, tháp chỉ còn trơ trọi.",
     location: {
       lat: 19.1234,
       lng: 104.5678
     },
-    address_vi: "Bản Yên Hoà, Xã Mỹ Lý, Huyện Quế Phong, Tỉnh Nghệ An",
+    address_vi: "Bản Yên Hoà, Xã Mỹ Lý, Tỉnh Nghệ An",
     imageURLs: [
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800",
+      "https://bna.1cdn.vn/2023/12/06/uploaded-thanhthuybna-2023_12_06-_bna-anh-4-2146.jpg",
       "https://images.unsplash.com/photo-1583417319078-cf1d4a5a8e6a?w=800"
     ],
     tags_vi: ["văn hóa", "truyền thống", "nhà sàn", "cộng đồng"],
@@ -44,14 +44,14 @@ const samplePOIs = [
     id: "traditional-weaving",
     type: "culture",
     name_vi: "Làng Nghề Dệt Thổ Cẩm",
-    description_vi: "Khám phá nghề dệt thổ cẩm truyền thống của người Thái. Du khách có thể học cách dệt, mua sắm các sản phẩm thủ công độc đáo và tìm hiểu về kỹ thuật dệt cổ truyền.",
+    description_vi: "Từ bàn tay tài hoa của các nghệ nhân, thổ cẩm đã được biến tấu thành nhiều sản phẩm phong phú, phục vụ nhu cầu đa dạng của khách hàng trong và ngoài nước:Trang phục: Váy, chân váy, áo khoác mang đậm phong cách truyền thống nhưng không kém phần hiện đại.Phụ kiện: Khăn quàng, tấm choàng, túi xách, ví cầm tay tinh xảo.Đồ trang trí nội thất: Nệm ngồi, vỏ gối, tranh treo tường, mang lại không gian ấm cúng và độc đáo.Các sản phẩm này không chỉ được yêu thích trong nước mà còn theo chân khách hàng đến với các thị trường quốc tế như Lào và Thái Lan, khẳng định giá trị và sức sống của một nghề thủ công truyền thống.",
     location: {
       lat: 19.1250,
       lng: 104.5650
     },
-    address_vi: "Khu vực phía Tây Bản Yên Hoà, Xã Mỹ Lý, Huyện Quế Phong, Tỉnh Nghệ An",
+    address_vi: "Khu vực phía Tây Bản Yên Hoà, Xã Mỹ Lý, Tỉnh Nghệ An",
     imageURLs: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+      "https://bna.1cdn.vn/2023/12/06/uploaded-thanhthuybna-2023_12_06-_bna-anh-2-487.jpg",
       "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800"
     ],
     tags_vi: ["thủ công", "dệt", "thổ cẩm", "văn hóa", "mua sắm"],
@@ -65,14 +65,14 @@ const samplePOIs = [
     id: "com-lam-bamboo-rice",
     type: "cuisine",
     name_vi: "Cơm Lam Yên Hoà",
-    description_vi: "Món cơm lam truyền thống được nấu trong ống tre, kết hợp với thịt nướng và rau rừng tươi ngon. Đây là món ăn đặc sản không thể bỏ qua khi đến Bản Yên Hoà.",
+    description_vi: "Bữa ăn của người Thái nơi đây là những sản vật từ núi rừng, thậm chí công cụ nấu ăn là lá chuối, tre… Trên mâm ăn truyền thống người Thái chia thành 5 phần, đồ chấm, đồ uống, đồ ghém, thức ăn, cơm hoặc xôi. Món cá nướng, “pá pình tộp” ngDu khách có thể thưởng thức các món ăn đặc sản của người Thái như: cơm lam, cá nướng, gà nướng, xôi nếp cẩm,.Món cơm lam truyền thống được nấu trong ống tre, kết hợp với thịt nướng và rau rừng tươi ngon. Đây là món ăn đặc sản không thể bỏ qua khi đến Bản Yên Hoà.",
     location: {
       lat: 19.1280,
       lng: 104.5680
     },
     address_vi: "Nhà hàng địa phương, Bản Yên Hoà, Xã Mỹ Lý, Huyện Quế Phong, Tỉnh Nghệ An",
     imageURLs: [
-      "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800",
+      "https://bna.1cdn.vn/2023/12/06/uploaded-thanhthuybna-2023_12_06-_bna-anh-3-2986.jpg",
       "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800"
     ],
     tags_vi: ["đặc sản", "cơm lam", "truyền thống", "ẩm thực"],
