@@ -116,3 +116,4 @@ echo 📚 For detailed instructions, see: DEPLOYMENT_GUIDE.md
 echo.
 echo 🌟 Your tourism website is ready to serve the community!
 pause
+

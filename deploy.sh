@@ -131,3 +131,4 @@ echo ""
 echo -e "${BLUE}📚 For detailed instructions, see: DEPLOYMENT_GUIDE.md${NC}"
 echo ""
 echo -e "${GREEN}🌟 Your tourism website is ready to serve the community!${NC}"
+

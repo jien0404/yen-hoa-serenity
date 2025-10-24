@@ -15,3 +15,4 @@ services:
         generateValue: true
       - key: CORS_ORIGIN
         value: https://yen-hoa-serenity.vercel.app
+
