@@ -1,0 +1,19 @@
+{
+  "name": "yen-hoa-serenity",
+  "version": "1.0.0",
+  "description": "Website quảng bá du lịch Bản Yên Hoà, Xã Mỹ Lý, Tỉnh Nghệ An",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": ["tourism", "vietnam", "nghe-an", "yen-hoa"],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

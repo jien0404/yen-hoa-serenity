@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: yen-hoa-serenity-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: server
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 8000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        value: https://yen-hoa-serenity.vercel.app
